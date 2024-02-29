@@ -1,5 +1,14 @@
 /*General*/
 
+body{
+    background-image: url(assets/background-pic.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 *{
