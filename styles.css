@@ -275,12 +275,14 @@ section-container{
 
 #about{
     position: relative;
+    
 }
 
 .about-containers{
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    justify-content: center;
 }
 
 .about-details-container{
@@ -291,21 +293,6 @@ section-container{
 .about-containers,
 .about-details-container{
     display: flex;
-}
-
-.about-pic{
-   position: relative;
-   margin-top: 8rem;
-   height: 100%;
-   width:100%;
-   border-radius: 50%;
-   
-}
-
-.arrow{
-    position: absolute;
-    right: -5rem;
-    bottom: 2.5rem;
 }
 
 .details-container{
@@ -332,6 +319,7 @@ section-container{
     width: 400px;
     margin: auto 0;
     flex: 0 0 auto;
+    align-items: center;
 }
 
 /* Experience*/
@@ -469,17 +457,7 @@ article .icon{
     height: 3rem;
 }
 
- .arrow-up{
-    position: absolute;
-    width: 2rem;
-    height: auto;
-    right: 5rem;
-    bottom: 2.5rem;
-    transform: rotate(180deg);
-    
-}
-
-/* Footer Section */
+ /* Footer Section */
 
 #footer{
     height: 26vh;
