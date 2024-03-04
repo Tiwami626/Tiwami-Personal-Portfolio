@@ -190,12 +190,21 @@ section-container{
 
 .profile-img{
     border-radius: 50%;
+    filter: blur(5%);
+    overflow: hidden;
+    transition: transform 0.5s ease-in-out;
+}
+
+
+.profile-img:hover {
+    transform: scale(1.3);
 }
 
 .section__text{
         align-self: center;
         text-align: center;
         font-size: 1.25rem;
+        
 }
 
 .section__text p{
