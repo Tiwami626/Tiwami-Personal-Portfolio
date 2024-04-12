@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Tevin",
+  "author": {
+    "name": "Tevin",
+    "email": "tevirungu@gmail.com"
+  },
   "license": "ISC"
 }
